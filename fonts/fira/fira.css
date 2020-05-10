@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'fira';
+    src: url('firasans-bold-webfont.woff2') format('woff2'),
+         url('firasans-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'fira';
+    src: url('firasans-bolditalic-webfont.woff2') format('woff2'),
+         url('firasans-bolditalic-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+}
+
