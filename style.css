@@ -9,6 +9,8 @@
   --code: #f3f3f3;
   --hof-border: #F9A825;
   --hof-bg: #FFF9C4;
+
+  --serif: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Nimbus Sans L", Roboto, Noto, "Segoe UI", Arial, Helvetica, "Helvetica Neue", sans-serif;
 }
 
 /* Define colours for auto dark mode */
@@ -33,6 +35,10 @@
   }
 }
 
+* {
+  font-family: var(--serif);
+}
+
 .main, .header, .footer {
   float: center;
   width: 100%;
@@ -55,7 +61,6 @@ html {
 }
 
 p.sitelogo {
-	font-family: "fira";
 	font-size: 1.5em;
 	display: inline-block;
 	float: left;
@@ -71,7 +76,6 @@ p.sitelogo {
 	border-radius: 2rem;
 	transition: 0.2s;
 	white-space: nowrap;
-	font-family: "fira";
 }
 
 .menubtn:hover {
@@ -105,7 +109,6 @@ p.menu {
 }
 
 p.sub-heading {
-  font-family: "merriweather";
   font-size: 1.3em;
   margin-top: -1em;
 }
@@ -116,7 +119,7 @@ p.sub-heading, h1.logo {
 
 .medium {
   font-size: 1.2em;
-  font-family: "fira";
+  font-weight: bold;
 }
 
 .halloffame {
@@ -165,7 +168,6 @@ a.post-link:hover, a.post-link:visited, a.post-link:active {
 
 ul.menu {
 	list-style: none;
-	font-family: "fira";
 	line-height: 1.7em;
 }
 
@@ -180,7 +182,6 @@ body, .header {
 	color: var(--main);
 	line-height: 1.5;
   font-size: calc(15px + 4 * (100vw / 1500));
-	font-family: "merriweather";
 }
 
 /* Typography */
@@ -212,7 +213,7 @@ figcaption {
 
 h1, h2, h3, h4, h5, h6 {
 	clear: both;
-	font-family: "fira";
+	font-weight: bold;
 }
 
 h1 {
