@@ -106,6 +106,7 @@ a.logo:hover {
 p.menu {
   text-align: center;
   margin-bottom: 3rem;
+  font-weight: bold;
 }
 
 p.sub-heading {
