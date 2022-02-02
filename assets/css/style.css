@@ -1,0 +1,65 @@
+/* Add your own CSS here to build on top of Simple.css */
+header h1 {
+  padding-top: 2rem;
+}
+
+.medium {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.medium code {
+  font-size: 1.3rem;
+}
+
+a.button {
+  border: 1px solid var(--text);
+  border-radius: 5px;
+  color: var(--text);
+  text-decoration: none;
+  padding: .5rem .75rem;
+  background: var(--bg);
+}
+
+.button:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.halloffame {
+  border-radius: 5px;
+  border: 2px solid var(--border);
+  background: var(--accent-bg);
+  padding: .5rem 0;
+  text-align: center;
+  line-height: 2;
+  margin-bottom: 2rem;
+}
+
+ul.feed-list {
+	list-style: none;
+	padding-left: 0;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+ul.feed-list li {
+	display: inline;
+	padding-right: 1.5em;
+  white-space:nowrap
+}
+
+.icon {
+  vertical-align: sub;
+  padding-right: .25rem;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+footer code {
+  font-size: 0.9rem;
+}
