@@ -54,7 +54,7 @@ If you have completed the challenge, please [drop me an email](mailto:hi@kevq.uk
 <div class="halloffame">
   <p>
     <b>Name:</b> {{ item.name }}<br>
-    <b>Website:</b> <a target="blank" href="{{ item.link }}">{{ item.link }}</a><br>
+    <b>Website:</b> <a target="blank" href="{{ item.link }}">{{ item.link }}</a> {{ item.note }}<br>
     <b>Date completed:</b> {{ item.date-completed }}
   </p>
 </div>
