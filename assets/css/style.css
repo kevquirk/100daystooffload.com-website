@@ -1,4 +1,8 @@
 /* Add your own CSS here to build on top of Simple.css */
+html {
+  scroll-padding-top: 2rem;
+}
+
 header h1 {
   padding-top: 2rem;
 }
