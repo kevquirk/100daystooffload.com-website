@@ -29,7 +29,7 @@ There are some simple and reasonable guidelines if you want to take part in `#10
 
 It's important to ensure you include the `#100DaysToOffload` hashtag in all your posts. This is so they're included in social media channels and get the visibility they deserve from the other people taking part.
 
-The links below will take you to the `#100DaysToOffload` hashtag feeds for various social sites so you can discover other people taking part. If there is a social feed missing, please [let me know](mailto:hi@kevq.uk).
+The links below will take you to the `#100DaysToOffload` hashtag feeds for various social sites so you can discover other people taking part. If there is a social feed missing, please [let me know](mailto:{{ site.email }}).
 
 <ul class="feed-list">
 	<li><a target="blank" title="Twitter" href="https://twitter.com/hashtag/100DaysToOffload"><svg class="icon" viewBox="0 0 32 32">
@@ -46,7 +46,7 @@ The links below will take you to the `#100DaysToOffload` hashtag feeds for vario
 
 This section of the site is reserved for those **very** special people who have completed `#100DaysToOffload`.
 
-If you have completed the challenge, please [drop me an email](mailto:hi@kevq.uk) or [submit a pull request on GitHub](https://github.com/kevquirk/100daystooffload.com-website) and I will add you to the list below.
+If you have completed the challenge, please [drop me an email](mailto:{{ site.email }}) or [submit a pull request on GitHub](https://github.com/kevquirk/100daystooffload.com-website) and I will add you to the list below.
 
 <br>
 
