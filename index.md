@@ -19,7 +19,7 @@ Just. Write.
 There are some simple and reasonable guidelines if you want to take part in `#100DaysToOffload`:
 
 * This needs to be done on a personal blog, not a corporate blog. If you don’t have a personal blog, you can sign up for a free one at [Bear Blog](https://bearblog.dev).
-* There is no specific start date. Your 100 posts can start or end whenever you want them to.
+* There is no specific start date. Your 100 posts can start or end whenever you want them to, they just need to be completed within 365 days.
 * Publish 100 new posts in the space of a year.
 * There are no limits to what you can post about – write about whatever interests you.
 * Once you have published an article, don’t forget to post a link on your social media with the hashtag `#100DaysToOffload`.
