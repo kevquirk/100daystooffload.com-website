@@ -6,6 +6,10 @@
   link: https://brennan.day
   date-completed: February 2026
 
+- name: Daniel Brüggemann (2x)
+  link: https://barfooz.xyz
+  date-completed: January 2026
+
 - name: Lara Dufour
   link: https://lamecarlate.net
   date-completed: December 2025
@@ -33,10 +37,6 @@
 - name: George Abbott
   link: https://gabbott.dev
   date-completed: February 2025
-
-- name: Daniel Brüggemann
-  link: https://barfooz.xyz
-  date-completed: January 2025
 
 - name: Paul Esch-Laurent
   link: https://paul.af
@@ -214,6 +214,7 @@
 - name: Robert Winter
   link: https://robert.winter.ink
   date-completed: August 2020
+
 
 
 
