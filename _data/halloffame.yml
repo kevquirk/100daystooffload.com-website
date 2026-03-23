@@ -124,6 +124,7 @@
 
 - name: Hyde Stevenson (x6)
   link: https://lazybea.rs
+  note: "100%: 2025,2024,2023,2022,2020 - 2021: 95/100"
   date-completed: October 2025
 
 - name: Dallin Crump
@@ -209,10 +210,6 @@
 
 - name: Horst Gutmann
   link: https://zerokspot.com
-  date-completed: August 2020
-
-- name: Hyde Stevenson
-  link: https://lazybear.io
   date-completed: August 2020
 
 - name: Robert Winter
