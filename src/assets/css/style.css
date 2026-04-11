@@ -1,0 +1,260 @@
+/** Get yer font on! **/
+@font-face {
+  font-family: 'GeneralSans';
+  src: url('https://cdn.kevquirk.com/GeneralSans-Variable.woff2') format('woff2'),
+       url('https://cdn.kevquirk.com/GeneralSans-Variable.woff') format('woff');
+       font-weight: 200 700;
+       font-display: swap;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'GeneralSans';
+  src: url('https://cdn.kevquirk.com/GeneralSans-VariableItalic.woff2') format('woff2'),
+       url('https://cdn.kevquirk.com/GeneralSans-VariableItalic.woff') format('woff');
+       font-weight: 200 700;
+       font-display: swap;
+       font-style: italic;
+}
+
+:root {
+  --sans-font: "General Sans", -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Nimbus Sans L", Roboto, "Noto Sans", "Segoe UI", Arial, Helvetica, "Helvetica Neue", sans-serif;
+}
+
+html {
+  scroll-padding-top: 2rem;
+}
+
+body > header p {
+  margin: 0 auto;
+}
+
+header h1 {
+  padding-top: 2rem;
+}
+
+.medium {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.medium code {
+  font-size: 1.3rem;
+}
+
+a.button {
+  border: 1px solid var(--text);
+  border-radius: 2rem;
+  color: var(--text);
+  text-decoration: none;
+  padding: .5rem .75rem;
+  background: var(--bg);
+}
+
+.button:not([aria-disabled="true"]):hover {
+  border-color: var(--accent);
+  background-color: var(--accent);
+  color: var(--bg);
+}
+
+.halloffame {
+  border-radius: 5px;
+  border: 2px solid var(--border);
+  background: var(--accent-bg);
+  padding: .5rem 0;
+  text-align: center;
+  line-height: 2;
+  max-width: 35rem;
+  margin: 0 auto 2rem auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.halloffame a {
+  font-size: 2rem;
+}
+
+.hof-watermark {
+  position: absolute;
+  bottom: 0;
+  right: 0.1em;
+  font-size: 6rem;
+  font-weight: bold;
+  opacity: 0.2;
+  line-height: 1;
+  pointer-events: none;
+  user-select: none;
+}
+
+.halloffame.silver a { color: #888; }
+
+.halloffame.gold a { color: #d4af37; }
+.halloffame.gold .hof-watermark {
+  color: #d4af37;
+  opacity: 0.3;
+}
+
+.halloffame.diamond a { color: #1ab8e8; }
+.halloffame.diamond .hof-watermark {
+  color: #53d8fb;
+  opacity: 0.4;
+}
+
+.halloffame.silver {
+  border: 4px solid transparent;
+  background-image:
+    linear-gradient(rgba(180, 180, 180, 0.12), rgba(180, 180, 180, 0.12)),
+    linear-gradient(var(--accent-bg), var(--accent-bg)),
+    linear-gradient(135deg, #888, #d0d0d0, #aaa, #e8e8e8, #888);
+  background-origin: padding-box, padding-box, border-box;
+  background-clip: padding-box, padding-box, border-box;
+  box-shadow: 0 0 10px rgba(150, 150, 150, 0.3), 0 0 0 2px rgba(150, 150, 150, 0.15);
+}
+
+.halloffame.gold {
+  border: 4px solid transparent;
+  background-image:
+    linear-gradient(rgba(212, 175, 55, 0.12), rgba(212, 175, 55, 0.12)),
+    linear-gradient(var(--accent-bg), var(--accent-bg)),
+    linear-gradient(135deg, #b8860b, #ffd700, #d4af37, #ffe066, #b8860b);
+  background-origin: padding-box, padding-box, border-box;
+  background-clip: padding-box, padding-box, border-box;
+  box-shadow: 0 0 12px rgba(212, 175, 55, 0.4), 0 0 0 2px rgba(212, 175, 55, 0.2);
+}
+
+.halloffame.diamond {
+  border: 4px solid transparent;
+  background-image:
+    linear-gradient(rgba(83, 216, 251, 0.15), rgba(83, 216, 251, 0.15)),
+    linear-gradient(var(--accent-bg), var(--accent-bg)),
+    linear-gradient(135deg, #53d8fb, #a8edea, #4dd9e8, #89f7fe, #53d8fb);
+  background-origin: padding-box, padding-box, border-box;
+  background-clip: padding-box, padding-box, border-box;
+  box-shadow: 0 0 12px rgba(83, 216, 251, 0.3), 0 0 0 2px rgba(83, 216, 251, 0.15);
+}
+
+.halloffame .years {
+  opacity: 0.5;
+  font-size: 0.85rem;
+}
+
+.hof-nav {
+  margin: 3rem 0;
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Hall of Fame key */
+.hof-key {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.key-item {
+  border-radius: 5px;
+  border: 2px solid var(--border);
+  padding: .2rem .6rem;
+  font-size: 0.85rem;
+}
+
+.key-item.silver {
+  border-color: transparent;
+  background-image:
+    linear-gradient(var(--bg), var(--bg)),
+    linear-gradient(135deg, #888, #d0d0d0, #aaa, #e8e8e8, #888);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+.key-item.gold {
+  border-color: transparent;
+  background-image:
+    linear-gradient(var(--bg), var(--bg)),
+    linear-gradient(135deg, #b8860b, #ffd700, #d4af37, #ffe066, #b8860b);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+.key-item.diamond {
+  border-color: transparent;
+  background-image:
+    linear-gradient(var(--bg), var(--bg)),
+    linear-gradient(135deg, #53d8fb, #a8edea, #4dd9e8, #89f7fe, #53d8fb);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+
+/* Sort controls */
+.hof-controls {
+  display: flex;
+  gap: .75rem;
+}
+
+button.button {
+  cursor: pointer;
+  font-size: 0.9rem;
+  border-radius: 2rem;
+  border-color: var(--accent);
+  background: var(--accent-bg);
+  color: var(--text);
+  padding: 0.5rem 0.75rem;
+}
+
+button.button.active,
+button.button.active:hover,
+button:enabled:hover {
+  background: var(--accent) !important;
+  color: var(--bg) !important;
+}
+
+ul.feed-list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
+  margin: 3rem 0 5rem 0;
+}
+
+ul.feed-list li {
+  display: block;
+}
+
+ul.feed-list a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border: 1px solid var(--border);
+  border-radius: 2rem;
+  padding: 0.4rem 0.9rem;
+  text-decoration: none;
+  color: var(--text);
+  font-size: 1rem;
+  transition: border-color 0.15s, background 0.15s, color 0.15s;
+}
+
+ul.feed-list a:hover {
+  border-color: var(--accent);
+  background: var(--accent-bg);
+}
+
+.icon {
+  vertical-align: sub;
+  padding-right: .25rem;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+footer code {
+  font-size: 0.9rem;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "100daystooffload.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevquirk/100daystooffload.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevquirk/100daystooffload.com/issues"
+  },
+  "homepage": "https://github.com/kevquirk/100daystooffload.com#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.5"
+  }
+}

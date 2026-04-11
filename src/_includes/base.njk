@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="{{ site.lang }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{{ site.title }}</title>
+    <meta name="description" content="{{ description }}" />
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <link rel="icon" href="/assets/images/favicon.webp" />
+    <link rel="apple-touch-icon" href="/assets/images/favicon.webp">
+
+    <meta property="og:title" content="{{ title }}"/>
+    {% if image %}<meta property="og:image" content="{{ site.url }}{{ image }}"/>{% endif %}
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="{{ site.title }}"/>
+    <meta property="og:description" content="{{ description }}"/>
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ title }}" />
+    {% if image %}<meta name="twitter:image" content="{{ site.url }}{{ image }}" />{% endif %}
+    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
+    <meta name="twitter:description" content="{{ description }}" />
+
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  </head>
+  <body>
+
+    <header>
+      <h1>{{ title }}</h1>
+      <p>{{ description }}</p><br>
+      <p><a class="button" href="#hall-of-fame">🎉 Hall of Fame 🎉</a></p>
+    </header>
+
+    <main>
+      {{ content | safe }}
+    </main>
+
+    <footer>
+      <p><code>#100DaysToOffload</code> is the brainchild of <a href="https://kevquirk.com">Kev Quirk</a>.<br>
+      This site was <code>&lt;/&gt;</code> with ♥ using <a href="https://11ty.dev">11ty</a> and <a href="https://simplecss.org">Simple.css</a>.</p>
+    </footer>
+
+  </body>
+</html>

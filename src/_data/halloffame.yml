@@ -1,0 +1,299 @@
+# Hall of Fame
+# completions = number of times completed
+# date-last-completed = most recent completion date
+# years-completed = calendar years in which you completed the challenge
+
+- name: Dan Q
+  link: https://danq.me
+  date-last-completed: April 2026
+  completions: 7
+  years-completed: 2020, 2021, 2022, 2023, 2024, 2025, 2026
+
+- name: Kev Quirk
+  link: https://kevquirk.com
+  date-last-completed: April 2026
+  completions: 2
+  years-completed: 2024, 2026
+
+- name: Noah Rahm
+  link: https://blog.noahrahm.com
+  date-last-completed: February 2026
+  completions: 1
+  years-completed: 2026
+
+- name: Brennan Kenneth Brown
+  link: https://brennan.day
+  date-last-completed: February 2026
+  completions: 1
+  years-completed: 2026
+
+- name: Daniel Brüggemann
+  link: https://barfooz.xyz
+  date-last-completed: January 2026
+  completions: 2
+  years-completed: 2025, 2026
+
+- name: Lara Dufour
+  link: https://lamecarlate.net
+  date-last-completed: December 2025
+  completions: 1
+  years-completed: 2025
+
+- name: Nathan
+  link: https://nthp.me
+  date-last-completed: December 2025
+  completions: 2
+  years-completed: 2024, 2025
+
+- name: Hyde Stevenson
+  link: https://lazybea.rs
+  date-last-completed: October 2025
+  completions: 6
+  years-completed: 2020, 2021, 2022, 2023, 2024, 2025
+
+- name: Christopher Himes
+  link: https://christopherhimes.com
+  date-last-completed: October 2025
+  completions: 1
+  years-completed: 2025
+
+- name: Peter's Path
+  link: https://peterspath.net
+  date-last-completed: August 2025
+  completions: 1
+  years-completed: 2025
+
+- name: Joel Chrono
+  link: https://joelchrono.xyz
+  date-last-completed: July 2025
+  completions: 4
+  years-completed: 2022, 2023, 2024, 2025
+
+- name: Annie Mueller
+  link: https://anniemueller.com/
+  date-last-completed: March 2025
+  completions: 1
+  years-completed: 2025
+
+- name: George Abbott
+  link: https://gabbott.dev
+  date-last-completed: February 2025
+  completions: 1
+  years-completed: 2025
+
+- name: Paul Esch-Laurent
+  link: https://paul.af
+  date-last-completed: January 2025
+  completions: 1
+  years-completed: 2025
+
+- name: JC Probably
+  link: https://notes.jeddacp.com
+  date-last-completed: December 2024
+  completions: 1
+  years-completed: 2024
+
+- name: Jason Self
+  link: https://jxself.org
+  date-last-completed: December 2024
+  completions: 1
+  years-completed: 2024
+
+- name: Lou Plummer
+  link: https://louplummer.lol
+  date-last-completed: September 2024
+  completions: 1
+  years-completed: 2024
+
+- name: Michał Sapka
+  link: https://michal.sapka.pl
+  date-last-completed: July 2024
+  completions: 1
+  years-completed: 2024
+
+- name: Stefan Alfbo
+  link: https://dev.to/stefanalfbo
+  date-last-completed: June 2024
+  completions: 1
+  years-completed: 2024
+
+- name: Juha-Matti Santala
+  link: https://hamatti.org/blog
+  date-last-completed: February 2024
+  completions: 1
+  years-completed: 2024
+
+- name: Clayton Errington
+  link: https://claytonerrington.com
+  date-last-completed: December 2023
+  completions: 1
+  years-completed: 2023
+
+- name: Garrit Franke
+  link: https://garrit.xyz
+  date-last-completed: December 2023
+  completions: 1
+  years-completed: 2023
+
+- name: Mahmud Ridwan
+  link: https://hjr265.me
+  date-last-completed: November 2023
+  completions: 1
+  years-completed: 2023
+
+- name: Jackson Chen
+  link: https://jacksonchen666.com
+  date-last-completed: October 2023
+  completions: 1
+  years-completed: 2023
+
+- name: Fredrik Björeman
+  link: https://www.bjoreman.com
+  date-last-completed: August 2023
+  completions: 2
+  years-completed: 2022, 2023
+
+- name: Gregory Hammond
+  link: https://gregoryhammond.ca
+  date-last-completed: April 2023
+  completions: 1
+  years-completed: 2023
+
+- name: Ariq Naufal
+  link: https://ariq.nauf.al
+  date-last-completed: March 2023
+  completions: 1
+  years-completed: 2023
+
+- name: Jw
+  link: https://so1o.xyz
+  date-last-completed: February 2023
+  completions: 1
+  years-completed: 2023
+
+- name: Dallin Crump
+  link: https://dallincrump.com
+  date-last-completed: December 2022
+  completions: 1
+  years-completed: 2022
+
+- name: Bryce Wray
+  link: https://www.brycewray.com
+  date-last-completed: December 2022
+  completions: 1
+  years-completed: 2022
+
+- name: m;bluelander
+  link: https://bluelander.bearblog.dev
+  date-last-completed: July 2022
+  completions: 1
+  years-completed: 2022
+
+- name: Simon Sáfár
+  link: https://simonsafar.com
+  date-last-completed: March 2022
+  completions: 1
+  years-completed: 2022
+
+- name: Dipo Dwijaya
+  link: https://jagatsoker.blogspot.com
+  note: (Indonesian 🇮🇩)
+  date-last-completed: February 2022
+  completions: 1
+  years-completed: 2022
+
+- name: Greg Adams
+  link: https://blazeorange.ninja
+  date-last-completed: January 2022
+  completions: 1
+  years-completed: 2022
+
+- name: Antje Kazimiers
+  link: https://ntj.github.io
+  date-last-completed: January 2022
+  completions: 1
+  years-completed: 2022
+
+- name: Will Webberley
+  link: https://wilw.dev
+  date-last-completed: December 2021
+  completions: 1
+  years-completed: 2021
+
+- name: Carsten Brüggenolte
+  link: https://zn80.net
+  date-last-completed: July 2021
+  completions: 1
+  years-completed: 2021
+
+- name: Peter Babič
+  link: https://peterbabic.dev
+  date-last-completed: June 2021
+  completions: 1
+  years-completed: 2021
+
+- name: Thomas Lloyd
+  link: https://blog.grappling.ca
+  date-last-completed: April 2021
+  completions: 1
+  years-completed: 2021
+
+- name: Doug Belshaw
+  link: https://dougbelshaw.com
+  date-last-completed: April 2021
+  completions: 1
+  years-completed: 2021
+
+- name: "Thumb"
+  link: https://simbly.me
+  date-last-completed: April 2021
+  completions: 1
+  years-completed: 2021
+
+- name: Khürt Williams
+  link: https://islandinthenet.com
+  date-last-completed: December 2020
+  completions: 1
+  years-completed: 2020
+
+- name: Mike Stone
+  link: https://mikestone.me
+  date-last-completed: December 2020
+  completions: 1
+  years-completed: 2020
+
+- name: Jake Bauer
+  link: https://www.paritybit.ca
+  date-last-completed: November 2020
+  completions: 1
+  years-completed: 2020
+
+- name: Ali Reza Hayati
+  link: https://alirezahayati.com
+  date-last-completed: August 2020
+  completions: 1
+  years-completed: 2020
+
+- name: Basil
+  link: https://trivial.observer
+  date-last-completed: August 2020
+  completions: 1
+  years-completed: 2020
+
+- name: Graham Williams
+  link: https://blog.grayw.co.uk
+  date-last-completed: August 2020
+  completions: 1
+  years-completed: 2020
+
+- name: Horst Gutmann
+  link: https://zerokspot.com
+  date-last-completed: August 2020
+  completions: 1
+  years-completed: 2020
+
+- name: Robert Winter
+  link: https://robert.winter.ink
+  date-last-completed: August 2020
+  completions: 1
+  years-completed: 2020
